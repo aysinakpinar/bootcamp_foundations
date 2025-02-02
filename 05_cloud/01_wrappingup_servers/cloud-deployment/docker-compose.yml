@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  clouddeployment:
+    image: clouddeployment
+    build:
+      context: .
+      dockerfile: ./Dockerfile

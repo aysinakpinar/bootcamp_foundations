@@ -1,0 +1,5 @@
+greetings = ("Hello, world! This is new to me")
+print(greetings.upper())
+print(greetings[0:-2])
+print(greetings.lower())
+print(greetings.title())
